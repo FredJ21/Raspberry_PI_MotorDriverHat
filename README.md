@@ -31,10 +31,8 @@ Les atouts importants sont donc la séparation des alimentations RPI/Motor/Servo
 
 La carte RPI "Motor Driver" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent de 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
 
-![RPI and two IBT_2](schemas/RPI_and_IBT_2.png)  
-
-|<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|<ul><li>Input Voltage: 6 ~ 27Vdc.</li><li>Driver: Dual BTS7960 H Bridge Configuration.</li><li>Peak current: 43-Amp.</li><li>PWM capability of up to 25 kHz.</li><li>Control Input Level: 3.3~5V.</li><li>Control Mode: PWM or level</li><li>Over-voltage Lock Out.</li><li>Working Duty Cycle: 0 ~100%.</li><li>Under-voltage Shut Down.</li></ul>|
-|------|------|
+|<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|<ul><li>Input Voltage: 6 ~ 27Vdc.</li><li>Driver: Dual BTS7960 H Bridge Configuration.</li><li>Peak current: 43-Amp.</li><li>PWM capability of up to 25 kHz.</li><li>Control Input Level: 3.3~5V.</li><li>Control Mode: PWM or level</li><li>Over-voltage Lock Out.</li><li>Working Duty Cycle: 0 ~100%.</li><li>Under-voltage Shut Down.</li></ul>|<a href="schemas/RPI_and_IBT_2.png"><img src="schemas/RPI_and_IBT_2.png" width="350"></a>
+|------|------|------|
 
 ## Raccordement
 
