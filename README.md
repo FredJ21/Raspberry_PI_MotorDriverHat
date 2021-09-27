@@ -41,13 +41,14 @@ La carte RPI "Motor Driver" reprend l'architecture du module **Arduino IBT_2**. 
 
 ![schema](schemas/RPI_MotorDriverHat.png)
 
-### Exemple de raccordement
+### Exemple de raccordement
 
 ![exemple](schemas/RPI_MotorDriverHat_Exemple.png)
 
 
 
 ### Schematic Diagram
+
 
 ### PCB
 
