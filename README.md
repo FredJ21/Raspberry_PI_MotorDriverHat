@@ -34,25 +34,26 @@ La carte RPI "Motor Driver" reprend l'architecture du module **Arduino IBT_2**. 
 |<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|<ul><li>Input Voltage: 6 ~ 27Vdc.</li><li>Driver: Dual BTS7960 H Bridge Configuration.</li><li>Peak current: 43-Amp.</li><li>PWM capability of up to 25 kHz.</li><li>Control Input Level: 3.3~5V.</li><li>Control Mode: PWM or level</li><li>Over-voltage Lock Out.</li><li>Working Duty Cycle: 0 ~100%.</li><li>Under-voltage Shut Down.</li></ul>|<a href="schemas/RPI_and_IBT_2.png"><img src="schemas/RPI_and_IBT_2.png" width="350"></a>
 |------|------|------|
 
-## Raccordement
+
+### Raccordement
 
 ![](schemas/RPI_MotorDriverHat.png)
 
-## Exemple de raccordement
+### Exemple de raccordement
 
 ![](schemas/RPI_MotorDriverHat_Exemple.png)
 
 
 
-## Schematic Diagram
+### Schematic Diagram
 
-## PCB
+### PCB
 
 
-## Authors
+### Authors
 Frederic JELMONI
 
-## MIT License
+### MIT License
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -71,5 +72,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Copyright
+### Copyright
 Copyright (c) 2021 Frederic JELMONI
