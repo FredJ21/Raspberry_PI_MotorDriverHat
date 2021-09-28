@@ -53,7 +53,7 @@ La batterie est également raccordée directement à la carte pour alimenter les
 
 La carte RPI "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent à 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
 
-|<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|<ul><li>Input Voltage: 6 ~ 27Vdc.</li><li>Driver: Dual BTS7960 H Bridge Configuration.</li><li>Peak current: 43-Amp.</li><li>PWM capability of up to 25 kHz.</li><li>Control Input Level: 3.3~5V.</li><li>Control Mode: PWM or level</li><li>Over-voltage Lock Out.</li><li>Working Duty Cycle: 0 ~100%.</li><li>Under-voltage Shut Down.</li></ul>|<a href="schemas/RPI_and_IBT_2.png"><img src="schemas/RPI_and_IBT_2.png" width="350"></a>
+|<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|- Input Voltage: 6 ~ 27Vdc.</br>- Driver: Dual BTS7960 H Bridge Configuration.</br>- Peak current: 43-Amp.</br>- PWM capability of up to 25 kHz.</br>- Control Input Level: 3.3~5V.</br>- Control Mode: PWM or level</br>- Over-voltage Lock Out.</br>- Working Duty Cycle: 0 ~100%.</br>- Under-voltage Shut Down.</br>|<a href="schemas/RPI_and_IBT_2.png"><img src="schemas/RPI_and_IBT_2.png" width="350"></a>
 |-|-|-|
 
 
