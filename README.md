@@ -25,12 +25,12 @@ Elle propose une connectivité pour les besoins en alimentation électrique et p
 - bouton poussoir
 
 
-***Les atouts*** notables de cette carte sont donc : la séparation des alimentations RPI/Motor/Servos et l'intégration de deux ponts en H puissant sur une surface réduite.
+***Les atouts*** notables de cette carte sont donc : la séparation des alimentations RPI/Motor/Servos et l'intégration de deux ponts en H puissants, le tout sur une surface réduite.
 
 
 ***Important*** : même si les BTS7960, des deux ponts en H, supportent un courant de plus de 40 ampères , il n'est pas envisageable d'utiliser la carte "MotorDriverHat" à une telle intensité de courant.
 
-La limite de courant admissible est principalement dû à la taille et l'épaisseur des pistes de cuivre du PCB , ainsi qu'à l'absence de dissipateur thermique sur les composants actifs.  
+La limite de courant admissible est principalement due à la taille et l'épaisseur des pistes de cuivre du PCB , ainsi qu'à l'absence de dissipateur thermique sur les composants actifs.  
 
 **TODO**: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation   
 
