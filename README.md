@@ -19,7 +19,7 @@ Elle propose une connectivité pour les besoins en alimentation électrique et p
 - Led de contrôle du sens de rotation
 - 6 entrées/sorties GPIO PWM avec alimentation servos moteurs
 - 4 entrées/sorties GPIO+Gnd (accessoires) + Led  
-- 2 sorties de amplifiées via MOSFET
+- 2 sorties amplifiées via MOSFET
 - connecteur I2C
 - buzzer (bip bip)
 - bouton poussoir
