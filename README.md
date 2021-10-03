@@ -34,10 +34,12 @@ La limite de courant admissible est principalement due à la taille et l'épaiss
 
 **TODO**: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation   
 
+---
 ### Repérage des points de raccordement
 
 ![schema](schemas/RPI_MotorDriverHat.png)
 
+---
 ### Exemple d'utilisation
 
 Cette exemple utilise deux régulateurs DC/DC de type "UBEC"
@@ -62,12 +64,12 @@ La carte RPI "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**
 
 ![Schematic Diagram](schemas/Schematic.png)
 
-
+---
 ### PCB
 
 ![exemple](schemas/PCB.png)
 
-
+---
 ### Authors
 Frederic JELMONI
 
