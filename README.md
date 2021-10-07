@@ -53,7 +53,7 @@ La batterie est également raccordée directement à la carte pour alimenter les
 ![exemple](schemas/RPI_MotorDriverHat_Exemple.png)
 
 ---
-### Sorties moteur - H Bridge BTS7960 - IBT_2
+### Les sorties moteurs CC - H Bridge BTS7960 - IBT_2
 
 La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent à 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
 
@@ -73,7 +73,7 @@ L'étage de puissance de la carte "MotorDriverHat", basé sur 2 ponts en H, peut
 ![RPI_MotroDriver_simple_diagram_H.png](schemas/RPI_MotroDriver_simple_diagram_H.png)
 
 ---
-### Sorties amplifiées - MOSFET
+### Les sorties amplifiées - MOSFET
 
 La carte "MotorDriverHat" est équipée de deux sorties amplifiées par des MOSFET de type IRFZ44 [MOSFET_IRFZ44_datasheet.pdf](docs/MOSFET_IRFZ44_datasheet.pdf).</br>
 Ce transistor à effet de champ est de type N-Channel, et est donc relié au 0v (GND) commun à l'ensemble des alimentations. Il pourra piloter des équipements fonctionnant sur diverses tensions électriques.
@@ -87,7 +87,12 @@ Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre réf
 
 ![RPI_MotroDriver_simple_diagram_MOSFET.png](schemas/RPI_MotroDriver_simple_diagram_MOSFET.png)
 
+---
+### Utilistation avec Vigibot.com
 
+La carte "MotorDriverHat" à été conçue pour fonctionner très simplement sur Vigibot.com, avec une configuration quasi par défaut.
+
+Plus d'info ici --> [docs/vigibot.md](docs/vigibot.md)
 
 ---
 ### Schema global
