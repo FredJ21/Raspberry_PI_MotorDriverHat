@@ -64,7 +64,8 @@ L'étage de puissance de la carte "MotorDriverHat", basé sur 2 ponts en H, peut
 
 ![RPI_MotroDriver_simple_diagram_H.png](schemas/RPI_MotroDriver_simple_diagram_H.png)
 
-
+---
+### MOSFET
 
 ---
 ### Schematic Diagram
