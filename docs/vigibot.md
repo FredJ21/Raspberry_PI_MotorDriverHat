@@ -4,6 +4,8 @@
 
 La carte "MotorDriverHat" à été conçue pour fonctionner très simplement sur Vigibot.com, avec une configuration quasi par défaut.
 
+![vigibot_logo](../img/vigibot_logo.png)
+
 ## [https://www.vigibot.com](https://www.vigibot.com])
 
 Documentations : https://www.robot-maker.com/forum/226-documentation-vigibot-francaise/

@@ -90,6 +90,8 @@ Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre réf
 ---
 ### Utilistation avec Vigibot.com
 
+![vigibot_logo](img/vigibot_logo.png)
+
 La carte "MotorDriverHat" à été conçue pour fonctionner très simplement sur Vigibot.com, avec une configuration quasi par défaut.
 
 Plus d'info ici --> [docs/vigibot.md](docs/vigibot.md)
