@@ -90,7 +90,7 @@ Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre réf
 
 
 ---
-### Schematic Diagram
+### Schema global
 
 ![MotorDriverHat - Schematic](schemas/Schematic.png)
 
