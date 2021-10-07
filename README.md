@@ -32,7 +32,7 @@ Elle propose une connectivité pour les besoins en alimentation électrique et p
 
 La limite de courant admissible est principalement dû à la taille et l'épaisseur des pistes de cuivre du PCB , ainsi qu'à l'absence de dissipateur thermique sur les composants actifs.  
 
-**TODO**: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation   
+**TODO**: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation [tests](tests)  
 
 ### Repérage des points de raccordement
 
