@@ -32,6 +32,8 @@ Elle propose une connectivité pour les besoins en alimentation électrique et p
 
 La limite de courant admissible est principalement due à la taille et l'épaisseur des pistes de cuivre du PCB , ainsi qu'à l'absence de dissipateur thermique sur les composants actifs.  
 
+***Remarque importante*** : le 0 Volt (GND) est commun à l'ensemble des alimentations
+
 ***TODO***: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation [tests](docs/MotorDriverHat_tests.md)  
 
 ---
@@ -51,7 +53,7 @@ La batterie est également raccordée directement à la carte pour alimenter les
 ![exemple](schemas/RPI_MotorDriverHat_Exemple.png)
 
 ---
-### H Bridge BTS7960 - IBT_2
+### Sorties moteur - H Bridge BTS7960 - IBT_2
 
 La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent à 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
 
@@ -60,17 +62,37 @@ La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. El
 
 Les caractéristiques techiques du module IBT_2 sont disponible ici: [BTS7960_IBT_2_Datasheet.pdf](docs/BTS7960_IBT_2_Datasheet.pdf)
 
+**Sorties Raspberry PI utilisées :**
+* GPIO 24 / 25
+* GPIO 26 / 27
+
 L'étage de puissance de la carte "MotorDriverHat", basé sur 2 ponts en H, peut donc être représenté de la manière simplifiée suivante:
+
+
 
 ![RPI_MotroDriver_simple_diagram_H.png](schemas/RPI_MotroDriver_simple_diagram_H.png)
 
 ---
-### MOSFET
+### Sorties amplifiées - MOSFET
+
+La carte "MotorDriverHat" est équipée de deux sorties amplifiées par des MOSFET de type IRFZ44 [MOSFET_IRFZ44_datasheet.pdf](docs/MOSFET_IRFZ44_datasheet.pdf).</br>
+Ce transistor à effet de champ est de type N-Channel, et donc relié au 0v (GND) commun à l'ensemble des alimentations. Il pourra piloter des équipements fonctionnant sur diverses tensions électriques.
+
+Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre référence
+
+**Sorties Raspberry PI utilisées :**
+* GPIO 22 & 23
+
+**Représentation simplifiée :**
+
+![RPI_MotroDriver_simple_diagram_MOSFET.png](schemas/RPI_MotroDriver_simple_diagram_MOSFET.png)
+
+
 
 ---
 ### Schematic Diagram
 
-![Schematic Diagram](schemas/Schematic.png)
+![MotorDriverHat - Schematic](schemas/Schematic.png)
 
 ---
 ### PCB
