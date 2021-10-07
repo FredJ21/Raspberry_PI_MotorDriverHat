@@ -34,7 +34,7 @@ La limite de courant admissible est principalement due à la taille et l'épaiss
 
 ***Remarque importante*** : le 0 Volt (GND) est commun à l'ensemble des alimentations
 
-***TODO***: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation [tests](docs/MotorDriverHat_tests.md)  
+***TODO***: il sera nécessaire de réaliser encore quelques tests pour déterminer les limites d'utilisation des ponts en H et des Mosfet [tests](docs/MotorDriverHat_tests.md)  
 
 ---
 ### Repérage des points de raccordement
@@ -62,7 +62,7 @@ La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. El
 
 Les caractéristiques techiques du module IBT_2 sont disponible ici: [BTS7960_IBT_2_Datasheet.pdf](docs/BTS7960_IBT_2_Datasheet.pdf)
 
-***Sorties Raspberry PI utilisées :***
+***Sorties Raspberry PI utilisées pour les moteurs:***
 * GPIO 24 / 25
 * GPIO 26 / 27
 
@@ -76,11 +76,11 @@ L'étage de puissance de la carte "MotorDriverHat", basé sur 2 ponts en H, peut
 ### Sorties amplifiées - MOSFET
 
 La carte "MotorDriverHat" est équipée de deux sorties amplifiées par des MOSFET de type IRFZ44 [MOSFET_IRFZ44_datasheet.pdf](docs/MOSFET_IRFZ44_datasheet.pdf).</br>
-Ce transistor à effet de champ est de type N-Channel, et donc relié au 0v (GND) commun à l'ensemble des alimentations. Il pourra piloter des équipements fonctionnant sur diverses tensions électriques.
+Ce transistor à effet de champ est de type N-Channel, et est donc relié au 0v (GND) commun à l'ensemble des alimentations. Il pourra piloter des équipements fonctionnant sur diverses tensions électriques.
 
 Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre référence
 
-***Sorties Raspberry PI utilisées :***
+***Sorties Raspberry PI utilisées pour les Mosfet:***
 * GPIO 22 & 23
 
 ***Représentation simplifiée :***

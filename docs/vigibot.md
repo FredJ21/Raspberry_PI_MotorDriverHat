@@ -2,7 +2,7 @@
 
 ### Compatibilité avec Vigibot.com
 
-La carte "MotorDriverHat" à été conçue pour fonctionner très simplement avec une configuration Vigibot.com
+La carte "MotorDriverHat" à été conçue pour fonctionner très simplement sur Vigibot.com, avec une configuration quasi par défaut.
 
 ## [https://www.vigibot.com](https://www.vigibot.com])
 
@@ -43,7 +43,7 @@ Voici la configuration par défaut des raccordement Vigibot.com
 
 La carte "MotorDriverHat" est au plus proche de la configuration par défaut Vigibot.com.
 
-Mais l'utilisation de 4 Gpio necessite de modifier les "Outputs" 4 et 5 dans la configuration matérielle afin de spécifier le mode PwmPwm et d’indiquer les sorties utilisées :
+Mais l'utilisation de 4 Gpio nécessite de modifier les "Outputs" 4 et 5 dans la configuration matérielle afin de spécifier le mode PwmPwm et d’indiquer les sorties utilisées :
 
 ```
 {
