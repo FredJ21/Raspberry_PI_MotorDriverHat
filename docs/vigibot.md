@@ -79,5 +79,5 @@ Pour plus de détails sur cette configuration et pour ajuster en fonction de vos
 ***Sur robot-maker.com*** --> https://www.robot-maker.com/forum/topic/13417-explorerfredj21-un-robot-4-roues-motrices-tres-simple-sur-vigibotcom/
 
 ## En Vidéos
-<a href="https://youtu.be/hQlef5lsTA4"><img src="../photos/youtube_1.png"></a>
+<a target="_blank" href="https://youtu.be/hQlef5lsTA4"><img src="../photos/youtube_1.png"></a>
 https://youtu.be/hQlef5lsTA4

@@ -104,6 +104,9 @@ Plus d'info ici --> [docs/vigibot.md](docs/vigibot.md)
 
 ![exemple](schemas/PCB.png)
 
+## Exemple d'utilisation en vidéos !!!
+<a target="_blank" href="https://youtu.be/hQlef5lsTA4"><img src="photos/youtube_1.png"></a>
+https://youtu.be/hQlef5lsTA4
 ---
 ### Authors
 Frederic JELMONI
