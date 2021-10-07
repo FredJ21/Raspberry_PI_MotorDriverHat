@@ -53,10 +53,17 @@ La batterie est également raccordée directement à la carte pour alimenter les
 ---
 ### H Bridge BTS7960 - IBT_2
 
-La carte RPI "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent à 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
+La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. Elle est l'équivalent à 2 ponts en H IBT_2 qui permettent à la Raspberry de piloter 2 ou 4 moteurs à l'aide de signaux PWM.  
 
 |<a href="img/IBT_2.png"><img src="img/IBT_2.png" width="250"></a>|- Input Voltage: 6 ~ 27Vdc.</br>- Driver: Dual BTS7960 H Bridge Configuration.</br>- Peak current: 43-Amp.</br>- PWM capability of up to 25 kHz.</br>- Control Input Level: 3.3~5V.</br>- Control Mode: PWM or level</br>- Over-voltage Lock Out.</br>- Working Duty Cycle: 0 ~100%.</br>- Under-voltage Shut Down.</br>|<a href="schemas/RPI_and_IBT_2.png"><img src="schemas/RPI_and_IBT_2.png" width="350"></a>
 |-|-|-|
+
+Les caractéristiques techiques du module IBT_2 sont disponible ici: [BTS7960_IBT_2_Datasheet.pdf](docs/BTS7960_IBT_2_Datasheet.pdf)
+
+L'étage de puissance de la carte "MotorDriverHat", basé sur 2 ponts en H, peut donc être représenté de la manière simplifiée suivante:
+
+![RPI_MotroDriver_simple_diagram_H.png](schemas/RPI_MotroDriver_simple_diagram_H.png)
+
 
 
 ---
