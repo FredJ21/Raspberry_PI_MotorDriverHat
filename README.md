@@ -62,7 +62,7 @@ La carte "MotorDriverHat" reprend l'architecture du module **Arduino IBT_2**. El
 
 Les caractéristiques techiques du module IBT_2 sont disponible ici: [BTS7960_IBT_2_Datasheet.pdf](docs/BTS7960_IBT_2_Datasheet.pdf)
 
-**Sorties Raspberry PI utilisées :**
+***Sorties Raspberry PI utilisées :***
 * GPIO 24 / 25
 * GPIO 26 / 27
 
@@ -80,10 +80,10 @@ Ce transistor à effet de champ est de type N-Channel, et donc relié au 0v (GND
 
 Remarque : il bien evidement possible d'utiser un MOSFET Type N d'une autre référence
 
-**Sorties Raspberry PI utilisées :**
+***Sorties Raspberry PI utilisées :***
 * GPIO 22 & 23
 
-**Représentation simplifiée :**
+***Représentation simplifiée :***
 
 ![RPI_MotroDriver_simple_diagram_MOSFET.png](schemas/RPI_MotroDriver_simple_diagram_MOSFET.png)
 
