@@ -16,7 +16,7 @@ Elle propose une connectivité pour les besoins en alimentation électrique et p
 - entrée d'alimentation 5 à 7V pour les servomoteurs
 - entrée d'alimentation  6 à 27V pour les moteurs
 - 2 ponts en H composés de 4 BTS7960 (43 Ampères)
-- Led de contrôle du sens de rotation
+- Leds de contrôle du sens de rotation
 - 6 entrées/sorties GPIO PWM avec alimentation servos moteurs
 - 4 entrées/sorties GPIO+Gnd (accessoires) + Led  
 - 2 sorties amplifiées via MOSFET
